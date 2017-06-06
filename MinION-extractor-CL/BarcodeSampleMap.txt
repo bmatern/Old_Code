@@ -1,0 +1,38 @@
+# This file is part of MinION-extractor-CL.
+#
+# MinION-extractor-CL is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# MinION-extractor-CL is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with MinION-extractor-CL. If not, see <http://www.gnu.org/licenses/>.
+
+# Version 1.0
+
+# I recommend creating a new Barcode Sample Map file for each MinION run.  
+# The format for this file is as follows (Without the # character):
+# BARCODENAME SAMPLEID
+# One barcode per line, with a single space between them. 
+# You can use ROOT to set a sample ID for the reads directly under the input directory. 
+# Don't use spaces or punctuation in your sample IDs, I'll try to clean em up but operating systems don't like those.
+# Capitalization matters.
+
+ROOT UnbarcodedSamples
+BC01 12345
+BC02 11111
+BC03 11112
+BC04 11113
+BC05 11114
+BC06 11115
+BC07 11116
+BC08 11117
+BC09 11118
+BC10 DontUseAnyPatientInfo
+BC11 EColiSample
+BC12 Sample3
